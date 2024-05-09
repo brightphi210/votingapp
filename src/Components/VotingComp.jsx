@@ -16,7 +16,7 @@ const VotingComp = () => {
             </div>
 
             <div className="px-5 py-5 flex items-center">
-              <h2 className="text-white text-lg">Amadi John</h2>
+              <h2 className="text-white text-lg">Netumbo</h2>
               <button class="btn btn-active  btn-primary 
                 bg-white text-black border-none 
                 hover:bg-purple-100 py-3 px-10 ml-auto">
@@ -25,7 +25,7 @@ const VotingComp = () => {
             </div>
           </div>
 
-          <div className="bg-slate-900 rounded-lg mt-5 p-10 flex items-center ">
+          <div className="bg-slate-900 rounded-lg mt-5 p-5 flex items-center ">
             <h1 className="text-white">Total number of votes</h1>
             <p className="text-white ml-auto flex justify-center items-center py-3 px-5 rounded-full bg-cyan-500">50</p>
           </div>
@@ -38,7 +38,7 @@ const VotingComp = () => {
             </div>
 
             <div className="px-5 py-5 flex items-center">
-              <h2 className="text-white text-lg">Amadi John</h2>
+              <h2 className="text-white text-lg">Netumbo</h2>
               <button class="btn btn-active  btn-primary 
                 bg-white text-black border-none 
                 hover:bg-purple-100 py-3 px-10 ml-auto">
@@ -47,7 +47,7 @@ const VotingComp = () => {
             </div>
           </div>
 
-          <div className="bg-slate-900 rounded-lg mt-5 p-10 flex items-center ">
+          <div className="bg-slate-900 rounded-lg mt-5 p-5 flex items-center ">
             <h1 className="text-white">Total number of votes</h1>
             <p className="text-white ml-auto flex justify-center items-center py-3 px-5 rounded-full bg-cyan-500">50</p>
           </div>
@@ -60,7 +60,7 @@ const VotingComp = () => {
             </div>
 
             <div className="px-5 py-5 flex items-center">
-              <h2 className="text-white text-lg">Amadi John</h2>
+              <h2 className="text-white text-lg">McHenry</h2>
               <button onClick={()=>document.getElementById('my_modal_3').showModal()} class="btn btn-active  btn-primary 
                 bg-white text-black border-none 
                 hover:bg-purple-100 py-3 px-10 ml-auto">
@@ -69,7 +69,7 @@ const VotingComp = () => {
             </div>
           </div>
 
-          <div className="bg-slate-900 rounded-lg mt-5 p-10 flex items-center ">
+          <div className="bg-slate-900 rounded-lg mt-5 p-5 flex items-center ">
             <h1 className="text-white">Total number of votes</h1>
             <p className="text-white ml-auto flex justify-center items-center py-3 px-5 rounded-full bg-cyan-500">50</p>
           </div>
@@ -87,24 +87,33 @@ const VotingComp = () => {
                   <option>Omusati</option>
                   <option>Oshikoto</option>
                   <option>Oshana</option>
+                  <option value="">Erongo</option>
+                  <option value="">Otjozondjupa</option>
+                  <option value="">Kavango East</option>
+                  <option value="">Zambezi</option>
+                  <option value="">Kunene</option>
+                  <option value="">Kavango West</option>
+                  <option value="">Hardap</option>
+                  <option value="">!Karas</option>
+                  <option value="">Omaheke</option>
                 </select>
                 <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">✕</button>
               </form>
 
               <div className="pt-5">
                 <div className='flex border-y border-slate-200 pt-6 pb-6'>
-                  <h2>Amadi John</h2>
+                  <h2>Netumbo</h2>
                   <input type="radio" name="radio-2" className="radio radio-primary ml-auto" />
                 </div>
 
 
                 <div className='flex border-b border-slate-200 pt-6 pb-6'>
-                  <h2>Amadi John</h2>
+                  <h2>Panduleni</h2>
                   <input type="radio" name="radio-2" className="radio radio-primary ml-auto" />
                 </div>
 
                 <div className='flex border-b border-slate-200 pt-6 pb-6'>
-                  <h2>Amadi John</h2>
+                  <h2>McHenry</h2>
                   <input type="radio" name="radio-2" className="radio radio-primary ml-auto" />
                 </div>
                 
