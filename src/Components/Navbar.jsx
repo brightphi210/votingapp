@@ -7,15 +7,15 @@ const Navbar = () => {
   return (
     <div className='w-full '>
       <div className='flex w-full px-[20rem] left-0 fixed  my-20 top-0 '>
-        <div className='flex items-center w-full px-10 py-2  rounded-full bg-blue-400'>
+        <div className='flex items-center w-full px-10 py-1  rounded-full bg-blue-200'>
               <div className='w-24'>
                   <img src={logo} alt="" />
               </div>
 
               <ul className='flex ml-auto gap-10 items-center'>
-                  <Link to={'/'}><li className='cursor-pointer text-white'>Home</li></Link>
+                  <Link to={'/'}><li className='cursor-pointer text-black'>Home</li></Link>
                   <Link to={'/dashboard'}>
-                    <button class="btn btn-active btn-primary bg-white text-black border-none hover:bg-purple-100 py-3 px-10">Vote Now</button>
+                    <button class="btn btn-active btn-primary bg-white text-black border-none hover:bg-purple-50 py-3 px-10">Vote Now</button>
                   </Link>
               </ul>
           </div>
