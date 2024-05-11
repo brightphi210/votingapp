@@ -15,7 +15,7 @@ const Navbar = () => {
               <ul className='flex ml-auto gap-10 items-center'>
                   <Link to={'/'}><li className='cursor-pointer text-black'>Home</li></Link>
                   <Link to={'/dashboard'}>
-                    <button class="btn btn-active btn-primary bg-white text-black text-md border-none hover:bg-purple-50 py-3 px-10">Connect verified wallet</button>
+                    <button class="btn btn-active btn-primary bg-white text-black text-md border-none hover:bg-purple-50 py-3 px-10">Cast your vote</button>
                   </Link>
               </ul>
           </div>
